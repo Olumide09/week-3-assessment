@@ -23,7 +23,9 @@ function checkSubmit(event) {
     const resturants = ["Popeyes", "McDonalds", "Panera Bread", "Chick-fil-a"];
     const random = Math.floor(Math.random() * resturants);
 
-    alert('random, resturants[random]');
+    console.log(random, resturants[random])
+
+    alert('Here is a resturant suggestion', resturants[random]);
 }
 
 let resSuggestor = document.querySelector('#resturant')
